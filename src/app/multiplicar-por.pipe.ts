@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'multiplicarPor'
+  name: 'multiplicarPor',
+  standalone: true
 })
 export class MultiplicarPorPipe implements PipeTransform {
 
