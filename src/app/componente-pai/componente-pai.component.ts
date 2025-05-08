@@ -9,6 +9,7 @@ import { ComponenteFilhoComponent } from "../componente-filho/componente-filho.c
 })
 export class ComponentePaiComponent {
 sobrenome = " Gonçalves "
+
 mostrarNomeCompleto (nomeCompleto: any){
   alert ('o nome completo é: ${nomeCompleto}');
 }

@@ -7,12 +7,13 @@ import { PipeCustomizadoComponent } from "./pipe-customizado/pipe-customizado.co
 import { TwoWayDataBindingComponent } from "./two-way-data-binding/two-way-data-binding.component";
 import { RenderizandoListasComponent } from "./renderizando-listas/renderizando-listas.component";
 import { ComponentePersonalizadoComponent } from "./componente-personalizado/componente-personalizado.component";
-import { ComponentePaiComponent } from "./componente-pai/componente-pai.component";  
+import { ComponentePaiComponent } from "./componente-pai/componente-pai.component";
+import { ExemploServico1Component } from "./exemplo-servico1/exemplo-servico1.component";  
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, PrimeiroComponenteComponent, SegundoComponenteComponent, PipeCustomizadoComponent, TwoWayDataBindingComponent, RenderizandoListasComponent, ComponentePersonalizadoComponent, ComponentePaiComponent], 
+  imports: [RouterModule, PrimeiroComponenteComponent, SegundoComponenteComponent, PipeCustomizadoComponent, TwoWayDataBindingComponent, RenderizandoListasComponent, ComponentePersonalizadoComponent, ComponentePaiComponent, ExemploServico1Component], 
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
